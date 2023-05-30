@@ -27,7 +27,13 @@ o.backward()
 draw_dot(o)
 ```
 ![Graph](graph.png)
-## Lecture 2: Bigram
+## Lecture 2: Bigram 
+Bigram is a language model and its an n-gram model for n=2,we are looking at a previous char to predict the next one .
+
+ 
+
+
+
 
 
 
