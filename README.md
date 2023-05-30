@@ -22,6 +22,8 @@ n=x1w1+b; n.label='n'
 o=n.tanh();o.label='o'
 #backward pass
 o.backward()
+
+draw_dot(o)
 ```
 
 ## Lecture 2: Bigram
