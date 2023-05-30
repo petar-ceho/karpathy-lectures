@@ -23,4 +23,9 @@ o.backward()
 
 
 
+## Lecture 2:Bigram 
+
+
+
+
 
