@@ -23,7 +23,7 @@ n=x1w1+b; n.label='n'
 o=n.tanh();o.label='o'
 #backward pass
 o.backward()
-
+#draw graph
 draw_dot(o)
 ```
 ![Graph](graph.png)
