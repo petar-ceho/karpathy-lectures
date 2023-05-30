@@ -5,7 +5,6 @@
 
 ## Lecture 1: Micrograd
 Micrograd is a tiny Autograd engine that implements backpropagation (reverse-mode autodiff),you will learn the fundamentals of automatic differentiation by building a scalar value autograd engine with only one class Value and using it to be able to create a small MLP.
-
 Code Example:
 ```python
 
