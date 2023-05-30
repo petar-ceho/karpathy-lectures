@@ -25,8 +25,7 @@ o.backward()
 
 draw_dot(o)
 ```
-![Graph][graph.svg]
-
+![Graph][graph.png]
 
 ## Lecture 2: Bigram
 
