@@ -28,7 +28,13 @@ draw_dot(o)
 ```
 ![Graph](graph.png)
 ## Lecture 2: Bigram 
-Bigram is a language model and its an n-gram model for n=2,we are using one character to predict the next one.
+Bigram is a language model and its an n-gram model for n=2,we are using one character to predict the next one,by looking at the counts of bigrams,and normalizing the rows the get probability distributions,and perform sampling of new words,evaluate the model via negative log likelihood.
+ 
+  
+
+
+
+
 
 
 
