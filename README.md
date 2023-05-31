@@ -6,7 +6,7 @@
 ## Lecture 1: Micrograd
 Micrograd is a tiny Autograd engine that implements backpropagation (reverse-mode autodiff),you will learn the fundamentals of automatic differentiation by building a scalar value autograd engine with only one class Value and using it to be able to create a small MLP.
 
-Code Example:
+code Example:
 ```python
 
 #input
@@ -30,9 +30,27 @@ draw_dot(o)
 ## Lecture 2: Bigram 
 Bigram is a language model and its an n-gram model for n=2,we are using one character to predict the next one,by looking at the counts of bigrams,and normalizing the rows the get probability distributions,and perform sampling of new words,evaluate the model via negative log likelihood.
  
-  
 
+code example:
+```python
+#generator to make everything deterministic 
+g = torch.Generator().manual_seed(2147483647)
+for i in range(1):
+  out = []
+  ix = 0
+  while True:
+    #get the probabilities 
+    p = P[ix]
+    #sample from the multinomial probability distribution
+    ix = torch.multinomial(p, num_samples=1, replacement=True, generator=g).item()
+    #integers to string 
+    out.append(itos[ix])
+    #if ix ==0 means end of the word 
+    if ix == 0:
+      break
+  print(''.join(out))
 
+```
 
 
 
