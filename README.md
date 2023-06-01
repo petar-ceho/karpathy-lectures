@@ -53,7 +53,8 @@ for i in range(1):
 ```
 Neural network approach:first construct xs(feature) and ys(label),turn xs into one hot encoded vectors to feed to a neural net with shape for one char[1,27],it contains only one linear layer(x @ W) then with softmax function(probability distribution) and negative log likelihood.
 
-
+## Lecture 3: MLP(multi layer perceptron)
+ 
 
 
 
