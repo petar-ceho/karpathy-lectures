@@ -27,7 +27,7 @@ o.backward()
 draw_dot(o)
 ```
 ![Graph](graph.png)
-## Lecture 2: Bigram 
+### Lecture 2: Bigram 
 Bigram is a language model and its an n-gram model for n=2,we are using one character to predict the next one,by looking at the counts of bigrams,and normalizing the rows the get probability distributions,and perform sampling of new words,evaluate the model via negative log likelihood.
  
 
@@ -53,7 +53,7 @@ for i in range(1):
 ```
 Neural network approach:first construct xs(feature) and ys(label),turn xs into one hot encoded vectors to feed to a neural net with shape for one char[1,27],it contains only one linear layer(x @ W) then with softmax function(probability distribution) and negative log likelihood.
 
-## Lecture 3: MLP(multi layer perceptron)
+### Lecture 3: MLP(multi layer perceptron)
  
 
 
