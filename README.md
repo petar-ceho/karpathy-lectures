@@ -1,9 +1,9 @@
-# Karpathy Lectures nn-zero-to-hero([link](https://github.com/karpathy/nn-zero-to-hero)) with complete exercises.
+## Karpathy Lectures nn-zero-to-hero([link](https://github.com/karpathy/nn-zero-to-hero)) with complete exercises.
 
 
 
 
-## Lecture 1: Micrograd
+### Lecture 1: Micrograd
 Micrograd is a tiny Autograd engine that implements backpropagation (reverse-mode autodiff),you will learn the fundamentals of automatic differentiation by building a scalar value autograd engine with only one class Value and using it to be able to create a small MLP.
 
 code Example:
