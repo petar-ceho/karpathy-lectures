@@ -55,7 +55,7 @@ Neural network approach:first construct xs(feature) and ys(label),turn xs into o
 
 ### Lecture 3: MLP(multi layer perceptron)
 Implementation of a language model using multi layer perceptron based on the paper [link](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf),the idea is that we create a embedding table which has 10dims so that each character has a 10dims space ex(1,10) this way we are reducing the dimensionality of [1,27] to [1,10] and enables us more efficiently to use 3 characters or more to predict the next one.
-   
+"Generalization is obtained because a sequence of words that has never been seen before gets high probability if it is made of words that are similar (in the sense of having a nearby representation) to words forming an already seen sentence"   
 
 
 
