@@ -58,6 +58,8 @@ Implementation of a language model using multi layer perceptron based on the pap
 
 "Generalization is obtained because a sequence of words that has never been seen before gets high probability if it is made of words that are similar (in the sense of having a nearby representation) to words forming an already seen sentence"   
 
+### Lecture 4:batch-normalization
+
 
 
 
