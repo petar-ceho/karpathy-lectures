@@ -61,6 +61,9 @@ Implementation of a language model using multi layer perceptron based on the pap
 ### Lecture 4:batch-normalization
 Learning about the statistics of the forward pass,problems regarding initialization of the  weights,biases and dead neurons(regarding activation-function).We also look at the typical diagnostic tools and visualizations you'd want to use to understand the health of your deep network.And introducing the batch-normalization [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/pdf/1502.03167.pdf).
 
+### Lecture 4:Manual backpropagation
+
+
 
 
 
