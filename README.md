@@ -61,13 +61,12 @@ Implementation of a language model using multi layer perceptron based on the pap
 ### Lecture 4:batch-normalization
 Learning about the statistics of the forward pass,problems regarding initialization of the  weights,biases and dead neurons(regarding activation-function).We also look at the typical diagnostic tools and visualizations you'd want to use to understand the health of your deep network.And introducing the batch-normalization [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/pdf/1502.03167.pdf).
 
-### Lecture 4: manual backpropagation
+### Lecture 5: manual backpropagation
 Manual backpropagation over the MLP which we created in the previous lectures.
 
  
-
-
-
+### Lecture 6: Building a WaveNet
+We take the 2-layer MLP from previous video and make it deeper with a tree-like structure, arriving at a convolutional neural network architecture similar to the WaveNet (2016) from DeepMind. In the WaveNet paper, the same hierarchical architecture is implemented more efficiently using causal dilated convolutions (not yet covered). Along the way we get a better sense of torch.nn and what it is and how it works under the hood, and what a typical deep learning development process looks like (a lot of reading of documentation, keeping track of multidimensional tensor shapes, moving between jupyter notebooks and repository code, ...).
 
 
 
