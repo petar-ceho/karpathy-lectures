@@ -70,9 +70,7 @@ We take the 2-layer MLP from previous video and make it deeper with a tree-like 
 
 
 
-
-
-
+### nanoGPT 
 
 
 
